@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Success Login</h1>
+</div>
+<script type="text/javascript">
+    var viewBagValue = @(ViewBag.Login);
+    sessionStorage.setItem("loged", viewBagValue);
+
+</script>
